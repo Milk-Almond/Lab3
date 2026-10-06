@@ -1,0 +1,18 @@
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+
+Exit status: 0
+$ python tools/build_prompt.py --agent agents/creation_agent --case agents/creation_agent/cases/primary.json
+/workspace/scratch/1ea952f5ee5f/teamrepo/work/creation_agent_primary_prompt.txt
+
+Exit status: 0
+$ python tools/build_prompt.py --agent agents/creation_agent --case agents/creation_agent/cases/contrast_1.json
+/workspace/scratch/1ea952f5ee5f/teamrepo/work/creation_agent_contrast_1_prompt.txt
+
+Exit status: 0
+$ python tools/build_prompt.py --agent agents/creation_agent --case agents/creation_agent/cases/boundary_missing_context.json
+/workspace/scratch/1ea952f5ee5f/teamrepo/work/creation_agent_boundary_missing_context_prompt.txt
+
+Exit status: 0
+
+No model execution was performed by these commands.

@@ -1,0 +1,13 @@
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+$ python tools/validate_response.py agents/creation_agent/responses/primary_response.json
+VALIDATION PASSED
+primary: nested schema constraints, metadata, evidence IDs and prompt reproduction PASS
+$ python tools/validate_response.py agents/creation_agent/responses/contrast_1_response.json
+VALIDATION PASSED
+contrast_1: nested schema constraints, metadata, evidence IDs and prompt reproduction PASS
+$ python tools/validate_response.py agents/creation_agent/responses/boundary_missing_context_response.json
+VALIDATION PASSED
+boundary_missing_context: nested schema constraints, metadata, evidence IDs and prompt reproduction PASS
+Artifact hashes PASS
+All saved-artifact checks PASS. Qualitative model behavior is reviewed separately; no model was invoked by this script.
