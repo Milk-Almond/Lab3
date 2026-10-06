@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "S1",
+    "claim_supported": "Transformer architecture is a major predecessor capability for modern LLM systems.",
+    "author_or_institution": "Vaswani et al.",
+    "title": "Attention Is All You Need",
+    "publication_date": "2017-06-12",
+    "source_or_reference": "https://arxiv.org/abs/1706.03762",
+    "evidence_type": "Original research",
+    "scope": "Historical architecture evidence",
+    "limitations": "Does not establish present-day agentic performance or enterprise suitability.",
+    "team_check_date": null
+  },
+  {
+    "source_id": "S2",
+    "claim_supported": "Large-scale autoregressive pretraining demonstrated broad task adaptation through prompting/few-shot examples, with uneven results.",
+    "author_or_institution": "Brown et al.",
+    "title": "Language Models are Few-Shot Learners",
+    "publication_date": "2020-05-28",
+    "source_or_reference": "https://arxiv.org/abs/2005.14165",
+    "evidence_type": "Original research",
+    "scope": "Historical language-model capability",
+    "limitations": "Does not establish reliable domain judgment or current model performance.",
+    "team_check_date": null
+  },
+  {
+    "source_id": "S3",
+    "claim_supported": "Retrieval-augmented generation combined parametric generation with retrieved external information.",
+    "author_or_institution": "Lewis et al.",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "publication_date": "2020-05-22",
+    "source_or_reference": "https://arxiv.org/abs/2005.11401",
+    "evidence_type": "Original research",
+    "scope": "Historical retrieval-augmentation capability",
+    "limitations": "Does not establish retrieved information is always correct, current or applicable.",
+    "team_check_date": null
+  },
+  {
+    "source_id": "S4",
+    "claim_supported": "Instruction tuning and human-feedback reinforcement improved instruction following while residual errors remained.",
+    "author_or_institution": "Ouyang et al.",
+    "title": "Training language models to follow instructions with human feedback",
+    "publication_date": "2022-03-04",
+    "source_or_reference": "https://arxiv.org/abs/2203.02155",
+    "evidence_type": "Original research",
+    "scope": "Historical instruction-following development",
+    "limitations": "Improved instruction following does not establish factual correctness or organizational authority.",
+    "team_check_date": null
+  },
+  {
+    "source_id": "S5",
+    "claim_supported": "Reasoning-and-action prompting demonstrated interleaving model-generated reasoning with actions and observations in evaluated tasks.",
+    "author_or_institution": "Yao et al.",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "publication_date": "2022-10-06",
+    "source_or_reference": "https://arxiv.org/abs/2210.03629",
+    "evidence_type": "Original research",
+    "scope": "Historical reasoning/action capability",
+    "limitations": "Does not establish reliable autonomous organizational decision-making.",
+    "team_check_date": null
+  },
+  {
+    "source_id": "S6",
+    "claim_supported": "Language models can be trained to decide when and how to invoke external tools/APIs.",
+    "author_or_institution": "Schick et al.",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "publication_date": "2023-02-09",
+    "source_or_reference": "https://arxiv.org/abs/2302.04761",
+    "evidence_type": "Original research",
+    "scope": "Historical tool-use capability",
+    "limitations": "Tool use does not establish permission, correct tool selection or safe organizational authority.",
+    "team_check_date": null
+  }
+]
